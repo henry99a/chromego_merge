@@ -6,6 +6,8 @@ import geoip2.database
 import socket
 import re
 
+# 全局序号计数器
+global_index = 0
 
 # 提取节点
 def process_urls(url_file, processor):
@@ -26,11 +28,13 @@ def process_urls(url_file, processor):
 
 # 提取clash节点
 def process_clash(data, index):
+    global global_index
     content = yaml.safe_load(data)
     proxies = content.get("proxies", [])
     for i, proxy in enumerate(proxies):
         location = get_physical_location(proxy["server"])
-        proxy["name"] = f"{location}_{proxy['type']}_{index}{i+1}"
+        proxy["name"] = f"{location}_{proxy['type']}_{global_index}"
+        global_index += 1
     merged_proxies.extend(proxies)
 
 
@@ -57,6 +61,7 @@ def get_physical_location(address):
 
 # 处理sb，待办
 def process_sb(data, index):
+    global global_index
     try:
         json_data = json.loads(data)
         # 处理 shadowtls 数据
@@ -70,7 +75,8 @@ def process_sb(data, index):
         shadowtls_password = json_data["outbounds"][1]["password"]
         version = json_data["outbounds"][1]["version"]
         location = get_physical_location(server)
-        name = f"{location}_shadowtls_{index}"
+        name = f"{location}_shadowtls_{global_index}"
+        global_index += 1
         # 创建当前网址的proxy字典
         proxy = {
             "name": name,
@@ -96,6 +102,7 @@ def process_sb(data, index):
 
 
 def process_hysteria(data, index):
+    global global_index
     try:
         json_data = json.loads(data)
         # 处理 hysteria 数据
@@ -118,7 +125,8 @@ def process_hysteria(data, index):
         alpn = json_data["alpn"]
         protocol = json_data["protocol"]
         location = get_physical_location(server)
-        name = f"{location}_hy_{index}"
+        name = f"{location}_hy_{global_index}"
+        global_index += 1
 
         # 创建当前网址的proxy字典
         proxy = {
@@ -146,6 +154,7 @@ def process_hysteria(data, index):
 
 # 处理hysteria2
 def process_hysteria2(data, index):
+    global global_index
     try:
         json_data = json.loads(data)
         # 处理 hysteria2 数据
@@ -162,7 +171,8 @@ def process_hysteria2(data, index):
         insecure = json_data["tls"]["insecure"]
         sni = json_data["tls"]["sni"]
         location = get_physical_location(server)
-        name = f"{location}_hy2_{index}"
+        name = f"{location}_hy2_{global_index}"
+        global_index += 1
 
         # 创建当前网址的proxy字典
         proxy = {
@@ -185,6 +195,7 @@ def process_hysteria2(data, index):
 
 # 处理xray
 def process_xray(data, index):
+    global global_index
     try:
         json_data = json.loads(data)
         # 处理 xray 数据
@@ -214,7 +225,8 @@ def process_xray(data, index):
             # udp转发
             isudp = True
             location = get_physical_location(server)
-            name = f"{location}_reality_{index}"
+            name = f"{location}_reality_{global_index}"
+            global_index += 1
 
             # 根据network判断tcp
             if network == "tcp":
