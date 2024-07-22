@@ -1465,7 +1465,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_96
+- name: None_None_vmess_96
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1596,34 +1596,34 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_San Antonio_hy2_105
+- name: United States_Dallas_hy2_105
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
   sni: ''
   skip-cert-verify: true
-- name: United States_San Antonio_hy2_106
+- name: United States_Dallas_hy2_106
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
   sni: ''
   skip-cert-verify: true
-- name: United States_San Antonio_hy2_107
+- name: United States_Dallas_hy2_107
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
   sni: ''
   skip-cert-verify: true
-- name: United States_San Antonio_hy2_108
+- name: United States_Dallas_hy2_108
   type: hysteria2
-  server: 173.234.31.98
-  port: 57429
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
   sni: ''
@@ -1744,7 +1744,7 @@ proxy-groups:
   - None_None_vmess_93
   - United States_None_vmess_94
   - None_None_vmess_95
-  - United States_None_vmess_96
+  - None_None_vmess_96
   - None_None_vmess_97
   - None_None_vmess_98
   - None_None_vmess_99
@@ -1753,10 +1753,10 @@ proxy-groups:
   - United States_None_hy_102
   - United States_None_hy_103
   - United States_Wilmington_hy_104
-  - United States_San Antonio_hy2_105
-  - United States_San Antonio_hy2_106
-  - United States_San Antonio_hy2_107
-  - United States_San Antonio_hy2_108
+  - United States_Dallas_hy2_105
+  - United States_Dallas_hy2_106
+  - United States_Dallas_hy2_107
+  - United States_Dallas_hy2_108
   - France_None_reality_109
 - name: 自动选择
   type: url-test
@@ -1860,7 +1860,7 @@ proxy-groups:
   - None_None_vmess_93
   - United States_None_vmess_94
   - None_None_vmess_95
-  - United States_None_vmess_96
+  - None_None_vmess_96
   - None_None_vmess_97
   - None_None_vmess_98
   - None_None_vmess_99
@@ -1869,10 +1869,10 @@ proxy-groups:
   - United States_None_hy_102
   - United States_None_hy_103
   - United States_Wilmington_hy_104
-  - United States_San Antonio_hy2_105
-  - United States_San Antonio_hy2_106
-  - United States_San Antonio_hy2_107
-  - United States_San Antonio_hy2_108
+  - United States_Dallas_hy2_105
+  - United States_Dallas_hy2_106
+  - United States_Dallas_hy2_107
+  - United States_Dallas_hy2_108
   - France_None_reality_109
 rules:
 - DOMAIN,clash.razord.top,DIRECT
