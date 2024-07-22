@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_93
+- name: United States_None_vmess_93
   type: vmess
   server: icook.tw
   port: 2086
@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_95
+- name: United States_None_vmess_95
   type: vmess
   server: japan.com
   port: 2086
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_99
+- name: United States_None_vmess_99
   type: vmess
   server: skk.moe
   port: 2086
@@ -1540,53 +1540,53 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_hy_101
+- name: United States_Dallas_hy_101
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_102
+- name: United States_Dallas_hy_102
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_103
+- name: United States_Dallas_hy_103
   type: hysteria
-  server: 208.87.243.123
-  port: 31476
-  ports: 31476
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: wechat.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Wilmington_hy_104
+- name: United States_Dallas_hy_104
   type: hysteria
-  server: 166.1.18.52
-  port: 10295
-  ports: 20000-30000
+  server: 38.135.52.192
+  port: 23456
+  ports: 23456
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1741,18 +1741,18 @@ proxy-groups:
   - United States_San Francisco_vmess_90
   - None_None_vmess_91
   - Canada_Ottawa_vmess_92
-  - None_None_vmess_93
+  - United States_None_vmess_93
   - United States_None_vmess_94
-  - None_None_vmess_95
+  - United States_None_vmess_95
   - United States_None_vmess_96
   - None_None_vmess_97
   - None_None_vmess_98
-  - None_None_vmess_99
+  - United States_None_vmess_99
   - None_None_vmess_100
-  - United States_None_hy_101
-  - United States_None_hy_102
-  - United States_None_hy_103
-  - United States_Wilmington_hy_104
+  - United States_Dallas_hy_101
+  - United States_Dallas_hy_102
+  - United States_Dallas_hy_103
+  - United States_Dallas_hy_104
   - United States_Wilmington_hy2_105
   - United States_Wilmington_hy2_106
   - United States_Wilmington_hy2_107
@@ -1857,18 +1857,18 @@ proxy-groups:
   - United States_San Francisco_vmess_90
   - None_None_vmess_91
   - Canada_Ottawa_vmess_92
-  - None_None_vmess_93
+  - United States_None_vmess_93
   - United States_None_vmess_94
-  - None_None_vmess_95
+  - United States_None_vmess_95
   - United States_None_vmess_96
   - None_None_vmess_97
   - None_None_vmess_98
-  - None_None_vmess_99
+  - United States_None_vmess_99
   - None_None_vmess_100
-  - United States_None_hy_101
-  - United States_None_hy_102
-  - United States_None_hy_103
-  - United States_Wilmington_hy_104
+  - United States_Dallas_hy_101
+  - United States_Dallas_hy_102
+  - United States_Dallas_hy_103
+  - United States_Dallas_hy_104
   - United States_Wilmington_hy2_105
   - United States_Wilmington_hy2_106
   - United States_Wilmington_hy2_107
