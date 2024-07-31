@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_95
+- name: None_None_vmess_95
   type: vmess
   server: japan.com
   port: 2086
@@ -1465,7 +1465,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_96
+- name: None_None_vmess_96
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_97
+- name: United States_None_vmess_97
   type: vmess
   server: russia.com
   port: 2086
@@ -1540,11 +1540,11 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_Los Angeles_hy_101
+- name: United States_Dallas_hy_101
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 173.234.31.102
+  port: 10221
+  ports: 10221
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1604,10 +1604,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_None_hy2_106
+- name: France_None_hy2_106
   type: hysteria2
-  server: 207.90.239.157
-  port: 15669
+  server: 62.210.101.0
+  port: 25302
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1729,18 +1729,18 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - United States_None_vmess_94
-  - United States_None_vmess_95
-  - United States_None_vmess_96
-  - None_None_vmess_97
+  - None_None_vmess_95
+  - None_None_vmess_96
+  - United States_None_vmess_97
   - None_None_vmess_98
   - None_None_vmess_99
   - None_None_vmess_100
-  - United States_Los Angeles_hy_101
+  - United States_Dallas_hy_101
   - United States_Los Angeles_hy_102
   - United States_Los Angeles_hy_103
   - United States_Los Angeles_hy_104
   - United States_None_hy2_105
-  - United States_None_hy2_106
+  - France_None_hy2_106
   - United States_None_hy2_107
   - United States_None_hy2_108
 - name: 自动选择
@@ -1844,18 +1844,18 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - United States_None_vmess_94
-  - United States_None_vmess_95
-  - United States_None_vmess_96
-  - None_None_vmess_97
+  - None_None_vmess_95
+  - None_None_vmess_96
+  - United States_None_vmess_97
   - None_None_vmess_98
   - None_None_vmess_99
   - None_None_vmess_100
-  - United States_Los Angeles_hy_101
+  - United States_Dallas_hy_101
   - United States_Los Angeles_hy_102
   - United States_Los Angeles_hy_103
   - United States_Los Angeles_hy_104
   - United States_None_hy2_105
-  - United States_None_hy2_106
+  - France_None_hy2_106
   - United States_None_hy2_107
   - United States_None_hy2_108
 rules:
