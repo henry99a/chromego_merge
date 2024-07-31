@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_93
+- name: None_None_vmess_93
   type: vmess
   server: icook.tw
   port: 2086
@@ -1465,7 +1465,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_96
+- name: None_None_vmess_96
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_97
+- name: United States_None_vmess_97
   type: vmess
   server: russia.com
   port: 2086
@@ -1495,7 +1495,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_98
+- name: None_None_vmess_98
   type: vmess
   server: singapore.com
   port: 2086
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_99
+- name: None_None_vmess_99
   type: vmess
   server: skk.moe
   port: 2086
@@ -1540,11 +1540,11 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_Dallas_hy_101
+- name: United States_Los Angeles_hy_101
   type: hysteria
-  server: 38.135.52.192
-  port: 10451
-  ports: 30000-40000
+  server: 104.166.125.163
+  port: 11001
+  ports: 11001
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1554,11 +1554,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Dallas_hy_102
+- name: United States_Los Angeles_hy_102
   type: hysteria
-  server: 38.135.52.192
-  port: 10451
-  ports: 30000-40000
+  server: 104.166.125.163
+  port: 11001
+  ports: 11001
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1568,11 +1568,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Dallas_hy_103
+- name: United States_Los Angeles_hy_103
   type: hysteria
-  server: 38.135.52.192
-  port: 10451
-  ports: 30000-40000
+  server: 104.166.125.163
+  port: 11001
+  ports: 11001
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1582,11 +1582,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Dallas_hy_104
+- name: United States_Los Angeles_hy_104
   type: hysteria
-  server: 38.135.52.192
-  port: 10451
-  ports: 30000-40000
+  server: 104.166.125.163
+  port: 11001
+  ports: 11001
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1727,18 +1727,18 @@ proxy-groups:
   - United States_San Francisco_vmess_90
   - None_None_vmess_91
   - Canada_Ottawa_vmess_92
-  - United States_None_vmess_93
+  - None_None_vmess_93
   - United States_None_vmess_94
   - None_None_vmess_95
-  - United States_None_vmess_96
-  - None_None_vmess_97
-  - United States_None_vmess_98
-  - United States_None_vmess_99
+  - None_None_vmess_96
+  - United States_None_vmess_97
+  - None_None_vmess_98
+  - None_None_vmess_99
   - None_None_vmess_100
-  - United States_Dallas_hy_101
-  - United States_Dallas_hy_102
-  - United States_Dallas_hy_103
-  - United States_Dallas_hy_104
+  - United States_Los Angeles_hy_101
+  - United States_Los Angeles_hy_102
+  - United States_Los Angeles_hy_103
+  - United States_Los Angeles_hy_104
   - United States_None_hy2_105
   - United States_None_hy2_106
   - United States_None_hy2_107
@@ -1842,18 +1842,18 @@ proxy-groups:
   - United States_San Francisco_vmess_90
   - None_None_vmess_91
   - Canada_Ottawa_vmess_92
-  - United States_None_vmess_93
+  - None_None_vmess_93
   - United States_None_vmess_94
   - None_None_vmess_95
-  - United States_None_vmess_96
-  - None_None_vmess_97
-  - United States_None_vmess_98
-  - United States_None_vmess_99
+  - None_None_vmess_96
+  - United States_None_vmess_97
+  - None_None_vmess_98
+  - None_None_vmess_99
   - None_None_vmess_100
-  - United States_Dallas_hy_101
-  - United States_Dallas_hy_102
-  - United States_Dallas_hy_103
-  - United States_Dallas_hy_104
+  - United States_Los Angeles_hy_101
+  - United States_Los Angeles_hy_102
+  - United States_Los Angeles_hy_103
+  - United States_Los Angeles_hy_104
   - United States_None_hy2_105
   - United States_None_hy2_106
   - United States_None_hy2_107
