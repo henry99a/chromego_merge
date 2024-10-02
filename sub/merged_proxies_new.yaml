@@ -27,7 +27,7 @@ dns:
 proxies:
 - name: None_None_vmess_0
   type: vmess
-  server: 104.19.38.8
+  server: 104.19.38.16
   port: 443
   uuid: 25d1b318-87e8-4c1e-a784-69783be4b30a
   alterId: 0
@@ -1450,7 +1450,7 @@ proxies:
     path: dongtaiwang.com
     headers:
       Host: ip1.589643.xyz
-- name: None_None_vmess_95
+- name: United States_None_vmess_95
   type: vmess
   server: japan.com
   port: 443
@@ -1729,7 +1729,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - United States_None_vmess_94
-  - None_None_vmess_95
+  - United States_None_vmess_95
   - United States_None_vmess_96
   - United States_None_vmess_97
   - None_None_vmess_98
@@ -1844,7 +1844,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - United States_None_vmess_94
-  - None_None_vmess_95
+  - United States_None_vmess_95
   - United States_None_vmess_96
   - United States_None_vmess_97
   - None_None_vmess_98
