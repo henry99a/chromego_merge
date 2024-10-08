@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip6.6016725.xyz
-- name: None_None_vmess_93
+- name: United States_None_vmess_93
   type: vmess
   server: icook.tw
   port: 2095
@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip6.6016725.xyz
-- name: None_None_vmess_95
+- name: United States_None_vmess_95
   type: vmess
   server: japan.com
   port: 2095
@@ -1465,7 +1465,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip6.6016725.xyz
-- name: None_None_vmess_96
+- name: United States_None_vmess_96
   type: vmess
   server: malaysia.com
   port: 2095
@@ -1540,11 +1540,11 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip6.6016725.xyz
-- name: United States_None_hy_101
+- name: Russia_Moscow_hy_101
   type: hysteria
-  server: 166.1.221.169
-  port: 55555
-  ports: 55555
+  server: 46.17.43.223
+  port: 12311
+  ports: 12311
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1554,11 +1554,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_102
+- name: Russia_Moscow_hy_102
   type: hysteria
-  server: 166.1.221.169
-  port: 55555
-  ports: 55555
+  server: 46.17.43.223
+  port: 12311
+  ports: 12311
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1568,11 +1568,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_103
+- name: Russia_Moscow_hy_103
   type: hysteria
-  server: 166.1.221.169
-  port: 55555
-  ports: 55555
+  server: 46.17.43.223
+  port: 12311
+  ports: 12311
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1582,11 +1582,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_104
+- name: Russia_Moscow_hy_104
   type: hysteria
-  server: 166.1.221.169
-  port: 55555
-  ports: 55555
+  server: 46.17.43.223
+  port: 12311
+  ports: 12311
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -1599,7 +1599,7 @@ proxies:
 - name: United States_None_hy2_105
   type: hysteria2
   server: 207.90.239.157
-  port: 11111
+  port: 12344
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1607,7 +1607,7 @@ proxies:
 - name: United States_None_hy2_106
   type: hysteria2
   server: 207.90.239.157
-  port: 11111
+  port: 12344
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1615,7 +1615,7 @@ proxies:
 - name: United States_None_hy2_107
   type: hysteria2
   server: 207.90.239.157
-  port: 11111
+  port: 12344
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1623,7 +1623,7 @@ proxies:
 - name: United States_None_hy2_108
   type: hysteria2
   server: 207.90.239.157
-  port: 11111
+  port: 12344
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1727,18 +1727,18 @@ proxy-groups:
   - United States_San Francisco_vmess_90
   - None_None_vmess_91
   - Canada_Ottawa_vmess_92
-  - None_None_vmess_93
+  - United States_None_vmess_93
   - United States_None_vmess_94
-  - None_None_vmess_95
-  - None_None_vmess_96
+  - United States_None_vmess_95
+  - United States_None_vmess_96
   - None_None_vmess_97
   - None_None_vmess_98
   - None_None_vmess_99
   - None_None_vmess_100
-  - United States_None_hy_101
-  - United States_None_hy_102
-  - United States_None_hy_103
-  - United States_None_hy_104
+  - Russia_Moscow_hy_101
+  - Russia_Moscow_hy_102
+  - Russia_Moscow_hy_103
+  - Russia_Moscow_hy_104
   - United States_None_hy2_105
   - United States_None_hy2_106
   - United States_None_hy2_107
@@ -1842,18 +1842,18 @@ proxy-groups:
   - United States_San Francisco_vmess_90
   - None_None_vmess_91
   - Canada_Ottawa_vmess_92
-  - None_None_vmess_93
+  - United States_None_vmess_93
   - United States_None_vmess_94
-  - None_None_vmess_95
-  - None_None_vmess_96
+  - United States_None_vmess_95
+  - United States_None_vmess_96
   - None_None_vmess_97
   - None_None_vmess_98
   - None_None_vmess_99
   - None_None_vmess_100
-  - United States_None_hy_101
-  - United States_None_hy_102
-  - United States_None_hy_103
-  - United States_None_hy_104
+  - Russia_Moscow_hy_101
+  - Russia_Moscow_hy_102
+  - Russia_Moscow_hy_103
+  - Russia_Moscow_hy_104
   - United States_None_hy2_105
   - United States_None_hy2_106
   - United States_None_hy2_107
