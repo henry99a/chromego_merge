@@ -1420,7 +1420,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip9.6016725.xyz
-- name: United States_None_vmess_93
+- name: None_None_vmess_93
   type: vmess
   server: icook.tw
   port: 2095
@@ -1450,7 +1450,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip9.6016725.xyz
-- name: None_None_vmess_95
+- name: United States_None_vmess_95
   type: vmess
   server: japan.com
   port: 2095
@@ -1495,7 +1495,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip9.6016725.xyz
-- name: None_None_vmess_98
+- name: United States_None_vmess_98
   type: vmess
   server: singapore.com
   port: 2095
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip9.6016725.xyz
-- name: None_None_vmess_99
+- name: United States_None_vmess_99
   type: vmess
   server: skk.moe
   port: 2095
@@ -1628,6 +1628,34 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: United States_Los Angeles_reality_109
+  type: vless
+  server: 108.181.3.68
+  port: 52562
+  uuid: 47b8b611-9e64-4d59-a1ef-b51b3ffc0cae
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.amazon.com
+  reality-opts:
+    public-key: qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8
+    short-id: ''
+- name: United States_Los Angeles_reality_110
+  type: vless
+  server: 108.181.3.68
+  port: 52562
+  uuid: 47b8b611-9e64-4d59-a1ef-b51b3ffc0cae
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.amazon.com
+  reality-opts:
+    public-key: qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1727,13 +1755,13 @@ proxy-groups:
   - United States_San Francisco_vmess_90
   - None_None_vmess_91
   - Canada_Ottawa_vmess_92
-  - United States_None_vmess_93
+  - None_None_vmess_93
   - United States_None_vmess_94
-  - None_None_vmess_95
+  - United States_None_vmess_95
   - United States_None_vmess_96
   - None_None_vmess_97
-  - None_None_vmess_98
-  - None_None_vmess_99
+  - United States_None_vmess_98
+  - United States_None_vmess_99
   - None_None_vmess_100
   - Russia_Moscow_hy_101
   - Russia_Moscow_hy_102
@@ -1743,6 +1771,8 @@ proxy-groups:
   - Russia_Moscow_hy2_106
   - Russia_Moscow_hy2_107
   - Russia_Moscow_hy2_108
+  - United States_Los Angeles_reality_109
+  - United States_Los Angeles_reality_110
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1842,13 +1872,13 @@ proxy-groups:
   - United States_San Francisco_vmess_90
   - None_None_vmess_91
   - Canada_Ottawa_vmess_92
-  - United States_None_vmess_93
+  - None_None_vmess_93
   - United States_None_vmess_94
-  - None_None_vmess_95
+  - United States_None_vmess_95
   - United States_None_vmess_96
   - None_None_vmess_97
-  - None_None_vmess_98
-  - None_None_vmess_99
+  - United States_None_vmess_98
+  - United States_None_vmess_99
   - None_None_vmess_100
   - Russia_Moscow_hy_101
   - Russia_Moscow_hy_102
@@ -1858,6 +1888,8 @@ proxy-groups:
   - Russia_Moscow_hy2_106
   - Russia_Moscow_hy2_107
   - Russia_Moscow_hy2_108
+  - United States_Los Angeles_reality_109
+  - United States_Los Angeles_reality_110
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
