@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c1.6016725.xyz
-- name: None_None_vmess_99
+- name: United States_None_vmess_99
   type: vmess
   server: skk.moe
   port: 2095
@@ -1733,7 +1733,7 @@ proxy-groups:
   - United States_None_vmess_96
   - None_None_vmess_97
   - None_None_vmess_98
-  - None_None_vmess_99
+  - United States_None_vmess_99
   - United States_San Francisco_vmess_100
   - Russia_Moscow_hy_101
   - Russia_Moscow_hy_102
@@ -1848,7 +1848,7 @@ proxy-groups:
   - United States_None_vmess_96
   - None_None_vmess_97
   - None_None_vmess_98
-  - None_None_vmess_99
+  - United States_None_vmess_99
   - United States_San Francisco_vmess_100
   - Russia_Moscow_hy_101
   - Russia_Moscow_hy_102
