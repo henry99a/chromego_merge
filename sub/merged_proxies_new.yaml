@@ -25,79 +25,19 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_None_vmess_0
-  type: vmess
-  server: 208.87.243.123
-  port: 8443
-  uuid: b5344405-aca9-4faa-c3b7-b59914e33631
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: 1.164748.xyz
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: 1.164748.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: United States_None_vmess_1
-  type: vmess
-  server: 208.87.243.123
-  port: 8443
-  uuid: b5344405-aca9-4faa-c3b7-b59914e33631
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: 1.164748.xyz
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: 1.164748.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: United States_None_vmess_2
-  type: vmess
-  server: 208.87.243.123
-  port: 8443
-  uuid: b5344405-aca9-4faa-c3b7-b59914e33631
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: 1.164748.xyz
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: 1.164748.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: United States_None_vmess_3
-  type: vmess
-  server: 208.87.243.123
-  port: 8443
-  uuid: b5344405-aca9-4faa-c3b7-b59914e33631
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: 1.164748.xyz
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: 1.164748.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: Russia_Moscow_hy_4
+- name: United States_None_hysteria2_0
+  type: hysteria2
+  server: 166.1.190.83
+  port: 61677
+  ports: 10000-50000
+  password: github.com/Alvin9999
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 5 Mbps
+  down: 10 Mbps
+- name: Russia_Moscow_hy_1
   type: hysteria
   server: 46.17.43.223
   port: 64907
@@ -111,7 +51,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Russia_Moscow_hy_5
+- name: Russia_Moscow_hy_2
   type: hysteria
   server: 46.17.43.223
   port: 12345
@@ -125,7 +65,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Russia_Moscow_hy_6
+- name: Russia_Moscow_hy_3
   type: hysteria
   server: 46.17.43.223
   port: 12345
@@ -139,7 +79,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Russia_Moscow_hy_7
+- name: Russia_Moscow_hy_4
   type: hysteria
   server: 46.17.43.223
   port: 12345
@@ -153,31 +93,31 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: Russia_Moscow_hy2_5
+  type: hysteria2
+  server: 46.17.41.189
+  port: 50717
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: Russia_Moscow_hy2_6
+  type: hysteria2
+  server: 46.17.41.189
+  port: 50717
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: Russia_Moscow_hy2_7
+  type: hysteria2
+  server: 46.17.41.189
+  port: 50717
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: Russia_Moscow_hy2_8
-  type: hysteria2
-  server: 46.17.41.189
-  port: 50717
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: Russia_Moscow_hy2_9
-  type: hysteria2
-  server: 46.17.41.189
-  port: 50717
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: Russia_Moscow_hy2_10
-  type: hysteria2
-  server: 46.17.41.189
-  port: 50717
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: Russia_Moscow_hy2_11
   type: hysteria2
   server: 46.17.41.189
   port: 50717
@@ -191,36 +131,30 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - United States_None_vmess_0
-  - United States_None_vmess_1
-  - United States_None_vmess_2
-  - United States_None_vmess_3
+  - United States_None_hysteria2_0
+  - Russia_Moscow_hy_1
+  - Russia_Moscow_hy_2
+  - Russia_Moscow_hy_3
   - Russia_Moscow_hy_4
-  - Russia_Moscow_hy_5
-  - Russia_Moscow_hy_6
-  - Russia_Moscow_hy_7
+  - Russia_Moscow_hy2_5
+  - Russia_Moscow_hy2_6
+  - Russia_Moscow_hy2_7
   - Russia_Moscow_hy2_8
-  - Russia_Moscow_hy2_9
-  - Russia_Moscow_hy2_10
-  - Russia_Moscow_hy2_11
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - United States_None_vmess_0
-  - United States_None_vmess_1
-  - United States_None_vmess_2
-  - United States_None_vmess_3
+  - United States_None_hysteria2_0
+  - Russia_Moscow_hy_1
+  - Russia_Moscow_hy_2
+  - Russia_Moscow_hy_3
   - Russia_Moscow_hy_4
-  - Russia_Moscow_hy_5
-  - Russia_Moscow_hy_6
-  - Russia_Moscow_hy_7
+  - Russia_Moscow_hy2_5
+  - Russia_Moscow_hy2_6
+  - Russia_Moscow_hy2_7
   - Russia_Moscow_hy2_8
-  - Russia_Moscow_hy2_9
-  - Russia_Moscow_hy2_10
-  - Russia_Moscow_hy2_11
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
