@@ -15113,6 +15113,62 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: Taiwan_Taipei_reality_1008
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: Taiwan_Taipei_reality_1009
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: Taiwan_Taipei_reality_1010
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: Taiwan_Taipei_reality_1011
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
 proxy-groups:
 - name: 节点选择
   type: select
@@ -16127,6 +16183,10 @@ proxy-groups:
   - Russia_Moscow_hy2_1005
   - Russia_Moscow_hy2_1006
   - Russia_Moscow_hy2_1007
+  - Taiwan_Taipei_reality_1008
+  - Taiwan_Taipei_reality_1009
+  - Taiwan_Taipei_reality_1010
+  - Taiwan_Taipei_reality_1011
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -17141,6 +17201,10 @@ proxy-groups:
   - Russia_Moscow_hy2_1005
   - Russia_Moscow_hy2_1006
   - Russia_Moscow_hy2_1007
+  - Taiwan_Taipei_reality_1008
+  - Taiwan_Taipei_reality_1009
+  - Taiwan_Taipei_reality_1010
+  - Taiwan_Taipei_reality_1011
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
