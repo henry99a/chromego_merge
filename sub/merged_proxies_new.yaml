@@ -97,18 +97,18 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Russia_Moscow_hy2_6
+- name: The Netherlands_Amsterdam_hy2_6
   type: hysteria2
-  server: 45.129.2.248
-  port: 23579
+  server: 163.172.217.10
+  port: 10011
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Russia_Moscow_hy2_7
+- name: The Netherlands_Amsterdam_hy2_7
   type: hysteria2
-  server: 45.129.2.248
-  port: 23579
+  server: 163.172.217.10
+  port: 10011
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -181,8 +181,8 @@ proxy-groups:
   - Russia_None_hy_3
   - Russia_Moscow_hy2_4
   - Russia_Moscow_hy2_5
-  - Russia_Moscow_hy2_6
-  - Russia_Moscow_hy2_7
+  - The Netherlands_Amsterdam_hy2_6
+  - The Netherlands_Amsterdam_hy2_7
   - Taiwan_Banqiao_reality_8
   - Taiwan_Banqiao_reality_9
   - Taiwan_Banqiao_reality_10
@@ -199,8 +199,8 @@ proxy-groups:
   - Russia_None_hy_3
   - Russia_Moscow_hy2_4
   - Russia_Moscow_hy2_5
-  - Russia_Moscow_hy2_6
-  - Russia_Moscow_hy2_7
+  - The Netherlands_Amsterdam_hy2_6
+  - The Netherlands_Amsterdam_hy2_7
   - Taiwan_Banqiao_reality_8
   - Taiwan_Banqiao_reality_9
   - Taiwan_Banqiao_reality_10
