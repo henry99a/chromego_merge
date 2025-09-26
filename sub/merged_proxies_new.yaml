@@ -81,39 +81,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy2_4
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_5
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_6
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_7
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: Unknown_reality_8
+- name: Unknown_reality_4
   type: vless
   server: 2001:bc8:32d7:302::13
   port: 34324
@@ -127,7 +95,7 @@ proxies:
   reality-opts:
     public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
     short-id: ''
-- name: Unknown_reality_9
+- name: Unknown_reality_5
   type: vless
   server: 2001:bc8:32d7:302::13
   port: 34324
@@ -151,12 +119,8 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_4
-  - United States_Los Angeles_hy2_5
-  - United States_Los Angeles_hy2_6
-  - United States_Los Angeles_hy2_7
-  - Unknown_reality_8
-  - Unknown_reality_9
+  - Unknown_reality_4
+  - Unknown_reality_5
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -167,12 +131,8 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
   - The Netherlands_Amsterdam_hy_3
-  - United States_Los Angeles_hy2_4
-  - United States_Los Angeles_hy2_5
-  - United States_Los Angeles_hy2_6
-  - United States_Los Angeles_hy2_7
-  - Unknown_reality_8
-  - Unknown_reality_9
+  - Unknown_reality_4
+  - Unknown_reality_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
