@@ -25,63 +25,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: The Netherlands_Amsterdam_hy_0
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands_Amsterdam_hy_1
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands_Amsterdam_hy_2
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: The Netherlands_Amsterdam_hy_3
-  type: hysteria
-  server: 109.104.154.97
-  port: 48429
-  ports: 10000-20000
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: Unknown_reality_4
+- name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
   port: 34324
@@ -95,7 +39,7 @@ proxies:
   reality-opts:
     public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
     short-id: ''
-- name: Unknown_reality_5
+- name: Unknown_reality_1
   type: vless
   server: 2001:bc8:32d7:302::13
   port: 34324
@@ -115,24 +59,16 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - The Netherlands_Amsterdam_hy_0
-  - The Netherlands_Amsterdam_hy_1
-  - The Netherlands_Amsterdam_hy_2
-  - The Netherlands_Amsterdam_hy_3
-  - Unknown_reality_4
-  - Unknown_reality_5
+  - Unknown_reality_0
+  - Unknown_reality_1
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - The Netherlands_Amsterdam_hy_0
-  - The Netherlands_Amsterdam_hy_1
-  - The Netherlands_Amsterdam_hy_2
-  - The Netherlands_Amsterdam_hy_3
-  - Unknown_reality_4
-  - Unknown_reality_5
+  - Unknown_reality_0
+  - Unknown_reality_1
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
